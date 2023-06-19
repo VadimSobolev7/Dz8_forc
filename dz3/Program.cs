@@ -11,6 +11,7 @@ int InputInt(string output)
     Console.Write(output);
     return int.Parse
     (Console.ReadLine());
+    
 }
 
 void RandomArray(int[,] array)
